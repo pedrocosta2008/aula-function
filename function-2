@@ -1,0 +1,102 @@
+// EXERCICIO DE LEITURA
+
+//1-
+
+//ira ser empresso os valores 10 e 50 (multiplicação dos dois numeros(2, 5) por 5)
+
+//Deu erro porque o console.log imprime no navegador e ali não tem
+
+//2-
+
+// Vai aparecer o termo true a cada texto que ele incluir a palavra "cenoura"
+
+//Eu gosto de cenoura
+//cenoura é bom pra vista
+//cenouras crescem na terra
+
+// EXERCICIO DE ESCRITA
+
+//1-
+
+//function sobremim (){
+//const sobremim = "eu sou Pedro, tenho 15 anos, moro no RS e sou estudante"
+//return(sobremim);
+//}
+//console.log(sobremim)
+
+//function informacoesSobreMim() {
+    //const nome = "pedro";
+   // const idade = 15; 
+   // const cidade = "são leopoldo"; 
+   // const estudante = true; 
+  
+   // const profissao = estudante ? "estudante" : "profissional";
+  
+  //  console.log(`Eu sou ${nome}, tenho ${idade} anos, moro em ${cidade} e sou ${profissao}.`);
+ // }
+
+  //function informacoesPessoa(nome, idade, cidade, profissao) {
+    //const endereco = "Rua Guarapari 190"; 
+  
+   // const mensagem = `Eu sou ${nome}, tenho ${idade} anos, moro em ${endereco} e sou ${profissao}.`;
+   // return mensagem;
+  //}
+  
+ //informacoesPessoa ("pedro", "15", "rua santiago 124", "e sou estudante")
+// informacoesSobreMim ("pedro", "15", "são leopoldo", "estudante")
+  
+
+//function somarNumeros(numero1, numero2) {
+    //var resultado = numero1 + numero2;
+    //return resultado;
+  //}
+  
+  //var resultadoDaSoma = somarNumeros(10, 10);
+  //console.log("O resultado da soma é: " + resultadoDaSoma);
+  
+  //Boolean(n1 % 2 ===0 )
+
+  
+//function diferençaNumeros(numero1, numero2) {
+   // const resultado = numero1 >= numero2;
+  //  return resultado;
+  //}
+  
+ // const resultadoDaSoma = diferençaNumerosNumeros(5, 10);
+ // console.log("O numero" + 5 + "é maior ou igual do que o numero" + 10);
+  
+//  Boolean(n1 % 2 ===0 )
+
+  
+//function mensagem(mensagem){
+   // return mensagem.length + mensagem.toUpperCase();
+//}
+//console.log(mensagem(prompt("Digite sua msg")));
+
+let numero1 = Number(prompt("digite um numero"))
+let numero2 = Number(prompt("digite outro numero"))
+
+    function somadenumeros(numero1,numero2){
+return numero1 + numero2
+    }
+
+function subtracaodenumeros(numero1,numero2){
+return numero1 - numero2
+  }
+
+ function multiplicaçãodenumeros(numero1,numero2){
+  return numero1 * numero2
+    }
+
+ function divisaodenumeros(numero1,numero2){
+ return numero1/ numero2               
+   }
+
+   console.log(somadenumeros(numero1,numero2))
+   console.log(subtracaodenumerosdenumeros(numero1,numero2))
+   console.log(multiplicaçãodenumerosdenumeros(numero1,numero2))
+   console.log(divisaodenumerosdenumeros(numero1,numero2))
+
+
+
+                        
